@@ -4,8 +4,6 @@
 // Set your secret key: remember to change this to your live secret key in production
 // See your keys here: https://dashboard.stripe.com/account/apikeys
 
-require_once("autoload.php");
-
 \Stripe\Stripe::setApiKey("sk_test_eaS2OL9Pp9LCEp0Zup9Ru2uZ");
 
 // Token is created using Checkout or Elements!
